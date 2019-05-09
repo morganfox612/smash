@@ -1,0 +1,79 @@
+body {
+  display: grid;
+  grid-template: 200px 200px 200px / 200px 200px 200px;
+  padding-left: 28%;
+  grid-gap: 7px;
+}
+
+.overlay {
+  font-size: 30px;
+  color: black;
+  opacity: 0;
+  transition: 1s ease;
+  text-align: center;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  width: 100%;
+  height: 100%;
+  background: url("https://i.ya-webdesign.com/images/png-gif-tumblr-7.gif");
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+#div1 {
+  background: url("https://vignette.wikia.nocookie.net/fantendo/images/c/c1/Sonic_SSBL.png/revision/latest/scale-to-width-down/200?cb=20180818191848");
+  background-size: 200px;
+  background-position: center;
+  border: 5px solid blue;
+}
+
+#div2 {
+  background: url("https://www.ssbwiki.com/images/thumb/2/2e/Mario_SSB4_Alt.png/200px-Mario_SSB4_Alt.png");
+  background-size: 200px;
+  background-position: center;
+  border: 5px solid red;
+}
+
+#div3 {
+  background: url("https://www.ssbwiki.com/images/thumb/c/c8/Zelda_SSBU.png/250px-Zelda_SSBU.png");
+  background-size: 200px;
+  border: 5px solid hotpink;
+}
+
+#div4 {
+  background: url("https://www.mariowiki.com/images/thumb/f/fe/SMO_Art_-_Luigi.jpg/200px-SMO_Art_-_Luigi.jpg");
+  background-size: 200px;
+  border: 5px solid lightgreen;
+}
+
+#div5 {
+  background: url("https://api-reader.tinkercad.com/api/images/kPNg5iU3OOr/t200.jpg");
+  background-size: 200px;
+  border: 5px solid yellow;
+}
+
+#div6 {
+  background: url("https://rei.animecharactersdatabase.com/uploads/chars/thumbs/200/43373-1306815029.jpg");
+  background-size: 200px;
+  border: 5px solid green;
+}
+
+#div7 {
+  background: url("https://vignette.wikia.nocookie.net/nintendo/images/8/87/Super_Smash_Bros._Ultimate_-_Character_Art_-_Daisy.png/revision/latest/scale-to-width-down/200?cb=20180612175651&path-prefix=en");
+  background-size: 200px;
+  border: 5px solid orange;
+}
+
+#div8 {
+  background: url("http://ami.animecharactersdatabase.com/uploads/chars/thumbs/200/43373-1305198378.jpg");
+  background-size: 200px;
+  border: 5px solid pink;
+}
+
+#div9 {
+  background: url("https://vignette.wikia.nocookie.net/ideas/images/4/4d/Rosalina_%26_Luma_2.png/revision/latest?cb=20140424020545");
+  background-size: 200px;
+  border: 5px solid lightblue;
+}
